@@ -123,6 +123,7 @@ CMakeFiles/Opdracht1.dir/ZBuffer.cpp.o: /home/mohammed/CLionProjects/Opdracht1/Z
 CMakeFiles/Opdracht1.dir/engine.cc.o: /home/mohammed/CLionProjects/Opdracht1/engine.cc \
   /home/mohammed/CLionProjects/Opdracht1/Color.h \
   /home/mohammed/CLionProjects/Opdracht1/LSytemUiils.h \
+  /home/mohammed/CLionProjects/Opdracht1/Light.h \
   /home/mohammed/CLionProjects/Opdracht1/Line2D.h \
   /home/mohammed/CLionProjects/Opdracht1/Point2D.h \
   /home/mohammed/CLionProjects/Opdracht1/ZBuffer.h \
@@ -1238,6 +1239,8 @@ CMakeFiles/Opdracht1.dir/vector/vector3d.cc.o: /home/mohammed/CLionProjects/Opdr
 
 /usr/include/c++/13/math.h:
 
+/usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h:
+
 /usr/include/c++/13/cstdlib:
 
 /usr/include/c++/13/clocale:
@@ -1367,10 +1370,6 @@ CMakeFiles/Opdracht1.dir/vector/vector3d.cc.o: /home/mohammed/CLionProjects/Opdr
 /usr/include/c++/13/bits/stl_algobase.h:
 
 /usr/include/c++/13/bits/memoryfwd.h:
-
-/usr/include/c++/13/cwctype:
-
-/usr/include/c++/13/bits/sstream.tcc:
 
 /usr/include/c++/13/bits/stl_uninitialized.h:
 
@@ -1536,6 +1535,10 @@ CMakeFiles/Opdracht1.dir/vector/vector3d.cc.o: /home/mohammed/CLionProjects/Opdr
 
 /usr/include/errno.h:
 
+/usr/include/c++/13/cwctype:
+
+/usr/include/c++/13/bits/sstream.tcc:
+
 /usr/include/c++/13/deque:
 
 /usr/include/c++/13/ctime:
@@ -1591,8 +1594,6 @@ CMakeFiles/Opdracht1.dir/vector/vector3d.cc.o: /home/mohammed/CLionProjects/Opdr
 /usr/include/wctype.h:
 
 /usr/include/sched.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h:
 
 /usr/include/endian.h:
 
@@ -1661,6 +1662,8 @@ CMakeFiles/Opdracht1.dir/vector/vector3d.cc.o: /home/mohammed/CLionProjects/Opdr
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /usr/include/c++/13/cwchar:
+
+/home/mohammed/CLionProjects/Opdracht1/Light.h:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 

@@ -190,6 +190,7 @@ CMakeFiles/Opdracht1.dir/engine.cc.o: \
  /home/mohammed/CLionProjects/Opdracht1/utils/../l_parser.h \
  /usr/include/c++/13/set /usr/include/c++/13/bits/stl_set.h \
  /usr/include/c++/13/bits/stl_multiset.h \
+ /home/mohammed/CLionProjects/Opdracht1/Light.h \
  /home/mohammed/CLionProjects/Opdracht1/vector/vector3d.h \
  /home/mohammed/CLionProjects/Opdracht1/LSytemUiils.h \
  /home/mohammed/CLionProjects/Opdracht1/ZBuffer.h

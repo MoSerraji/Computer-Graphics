@@ -148,7 +148,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Opdracht1
+CMAKE_PROJECT_NAME:STATIC=engine
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -223,6 +223,15 @@ Opdracht1_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 Opdracht1_SOURCE_DIR:STATIC=/home/mohammed/CLionProjects/Opdracht1
+
+//Value Computed by CMake
+engine_BINARY_DIR:STATIC=/home/mohammed/CLionProjects/Opdracht1/build
+
+//Value Computed by CMake
+engine_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+engine_SOURCE_DIR:STATIC=/home/mohammed/CLionProjects/Opdracht1
 
 
 ########################

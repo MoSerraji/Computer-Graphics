@@ -191,6 +191,17 @@ CMakeFiles/Opdracht1.dir/engine.cc.o: \
  /usr/include/c++/13/set /usr/include/c++/13/bits/stl_set.h \
  /usr/include/c++/13/bits/stl_multiset.h \
  /home/mohammed/CLionProjects/Opdracht1/Light.h \
+ /usr/include/c++/13/memory \
+ /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/13/bits/align.h /usr/include/c++/13/bits/unique_ptr.h \
+ /usr/include/c++/13/bits/shared_ptr.h \
+ /usr/include/c++/13/bits/shared_ptr_base.h \
+ /usr/include/c++/13/ext/concurrence.h \
+ /usr/include/c++/13/bits/shared_ptr_atomic.h \
+ /usr/include/c++/13/bits/atomic_base.h \
+ /usr/include/c++/13/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/13/backward/auto_ptr.h \
  /home/mohammed/CLionProjects/Opdracht1/vector/vector3d.h \
  /home/mohammed/CLionProjects/Opdracht1/LSytemUiils.h \
+ /home/mohammed/CLionProjects/Opdracht1/PointLight.h \
  /home/mohammed/CLionProjects/Opdracht1/ZBuffer.h

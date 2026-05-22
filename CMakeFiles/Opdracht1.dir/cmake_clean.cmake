@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Opdracht1.dir/Line2D.cpp.o.d"
   "CMakeFiles/Opdracht1.dir/Point2D.cpp.o"
   "CMakeFiles/Opdracht1.dir/Point2D.cpp.o.d"
+  "CMakeFiles/Opdracht1.dir/PointLight.cpp.o"
+  "CMakeFiles/Opdracht1.dir/PointLight.cpp.o.d"
   "CMakeFiles/Opdracht1.dir/ZBuffer.cpp.o"
   "CMakeFiles/Opdracht1.dir/ZBuffer.cpp.o.d"
   "CMakeFiles/Opdracht1.dir/engine.cc.o"

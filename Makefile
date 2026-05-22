@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Opdracht1
+# Target rules for targets named engine
 
 # Build rule for target.
-Opdracht1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Opdracht1
-.PHONY : Opdracht1
+engine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine
+.PHONY : engine
 
 # fast build rule for target.
-Opdracht1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/build
-.PHONY : Opdracht1/fast
+engine/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/build
+.PHONY : engine/fast
 
 Color.o: Color.cpp.o
 .PHONY : Color.o
 
 # target to build an object file
 Color.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/Color.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/Color.cpp.o
 .PHONY : Color.cpp.o
 
 Color.i: Color.cpp.i
@@ -142,7 +142,7 @@ Color.i: Color.cpp.i
 
 # target to preprocess a source file
 Color.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/Color.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/Color.cpp.i
 .PHONY : Color.cpp.i
 
 Color.s: Color.cpp.s
@@ -150,7 +150,7 @@ Color.s: Color.cpp.s
 
 # target to generate assembly for a file
 Color.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/Color.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/Color.cpp.s
 .PHONY : Color.cpp.s
 
 Line2D.o: Line2D.cpp.o
@@ -158,7 +158,7 @@ Line2D.o: Line2D.cpp.o
 
 # target to build an object file
 Line2D.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/Line2D.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/Line2D.cpp.o
 .PHONY : Line2D.cpp.o
 
 Line2D.i: Line2D.cpp.i
@@ -166,7 +166,7 @@ Line2D.i: Line2D.cpp.i
 
 # target to preprocess a source file
 Line2D.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/Line2D.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/Line2D.cpp.i
 .PHONY : Line2D.cpp.i
 
 Line2D.s: Line2D.cpp.s
@@ -174,7 +174,7 @@ Line2D.s: Line2D.cpp.s
 
 # target to generate assembly for a file
 Line2D.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/Line2D.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/Line2D.cpp.s
 .PHONY : Line2D.cpp.s
 
 Point2D.o: Point2D.cpp.o
@@ -182,7 +182,7 @@ Point2D.o: Point2D.cpp.o
 
 # target to build an object file
 Point2D.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/Point2D.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/Point2D.cpp.o
 .PHONY : Point2D.cpp.o
 
 Point2D.i: Point2D.cpp.i
@@ -190,7 +190,7 @@ Point2D.i: Point2D.cpp.i
 
 # target to preprocess a source file
 Point2D.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/Point2D.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/Point2D.cpp.i
 .PHONY : Point2D.cpp.i
 
 Point2D.s: Point2D.cpp.s
@@ -198,15 +198,39 @@ Point2D.s: Point2D.cpp.s
 
 # target to generate assembly for a file
 Point2D.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/Point2D.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/Point2D.cpp.s
 .PHONY : Point2D.cpp.s
+
+PointLight.o: PointLight.cpp.o
+.PHONY : PointLight.o
+
+# target to build an object file
+PointLight.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/PointLight.cpp.o
+.PHONY : PointLight.cpp.o
+
+PointLight.i: PointLight.cpp.i
+.PHONY : PointLight.i
+
+# target to preprocess a source file
+PointLight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/PointLight.cpp.i
+.PHONY : PointLight.cpp.i
+
+PointLight.s: PointLight.cpp.s
+.PHONY : PointLight.s
+
+# target to generate assembly for a file
+PointLight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/PointLight.cpp.s
+.PHONY : PointLight.cpp.s
 
 ZBuffer.o: ZBuffer.cpp.o
 .PHONY : ZBuffer.o
 
 # target to build an object file
 ZBuffer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/ZBuffer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/ZBuffer.cpp.o
 .PHONY : ZBuffer.cpp.o
 
 ZBuffer.i: ZBuffer.cpp.i
@@ -214,7 +238,7 @@ ZBuffer.i: ZBuffer.cpp.i
 
 # target to preprocess a source file
 ZBuffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/ZBuffer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/ZBuffer.cpp.i
 .PHONY : ZBuffer.cpp.i
 
 ZBuffer.s: ZBuffer.cpp.s
@@ -222,7 +246,7 @@ ZBuffer.s: ZBuffer.cpp.s
 
 # target to generate assembly for a file
 ZBuffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/ZBuffer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/ZBuffer.cpp.s
 .PHONY : ZBuffer.cpp.s
 
 engine.o: engine.cc.o
@@ -230,7 +254,7 @@ engine.o: engine.cc.o
 
 # target to build an object file
 engine.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/engine.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/engine.cc.o
 .PHONY : engine.cc.o
 
 engine.i: engine.cc.i
@@ -238,7 +262,7 @@ engine.i: engine.cc.i
 
 # target to preprocess a source file
 engine.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/engine.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/engine.cc.i
 .PHONY : engine.cc.i
 
 engine.s: engine.cc.s
@@ -246,7 +270,7 @@ engine.s: engine.cc.s
 
 # target to generate assembly for a file
 engine.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/engine.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/engine.cc.s
 .PHONY : engine.cc.s
 
 l_parser.o: l_parser.cc.o
@@ -254,7 +278,7 @@ l_parser.o: l_parser.cc.o
 
 # target to build an object file
 l_parser.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/l_parser.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/l_parser.cc.o
 .PHONY : l_parser.cc.o
 
 l_parser.i: l_parser.cc.i
@@ -262,7 +286,7 @@ l_parser.i: l_parser.cc.i
 
 # target to preprocess a source file
 l_parser.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/l_parser.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/l_parser.cc.i
 .PHONY : l_parser.cc.i
 
 l_parser.s: l_parser.cc.s
@@ -270,7 +294,7 @@ l_parser.s: l_parser.cc.s
 
 # target to generate assembly for a file
 l_parser.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/l_parser.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/l_parser.cc.s
 .PHONY : l_parser.cc.s
 
 utils/easy_image.o: utils/easy_image.cc.o
@@ -278,7 +302,7 @@ utils/easy_image.o: utils/easy_image.cc.o
 
 # target to build an object file
 utils/easy_image.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/utils/easy_image.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/utils/easy_image.cc.o
 .PHONY : utils/easy_image.cc.o
 
 utils/easy_image.i: utils/easy_image.cc.i
@@ -286,7 +310,7 @@ utils/easy_image.i: utils/easy_image.cc.i
 
 # target to preprocess a source file
 utils/easy_image.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/utils/easy_image.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/utils/easy_image.cc.i
 .PHONY : utils/easy_image.cc.i
 
 utils/easy_image.s: utils/easy_image.cc.s
@@ -294,7 +318,7 @@ utils/easy_image.s: utils/easy_image.cc.s
 
 # target to generate assembly for a file
 utils/easy_image.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/utils/easy_image.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/utils/easy_image.cc.s
 .PHONY : utils/easy_image.cc.s
 
 utils/ini_configuration.o: utils/ini_configuration.cc.o
@@ -302,7 +326,7 @@ utils/ini_configuration.o: utils/ini_configuration.cc.o
 
 # target to build an object file
 utils/ini_configuration.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/utils/ini_configuration.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/utils/ini_configuration.cc.o
 .PHONY : utils/ini_configuration.cc.o
 
 utils/ini_configuration.i: utils/ini_configuration.cc.i
@@ -310,7 +334,7 @@ utils/ini_configuration.i: utils/ini_configuration.cc.i
 
 # target to preprocess a source file
 utils/ini_configuration.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/utils/ini_configuration.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/utils/ini_configuration.cc.i
 .PHONY : utils/ini_configuration.cc.i
 
 utils/ini_configuration.s: utils/ini_configuration.cc.s
@@ -318,7 +342,7 @@ utils/ini_configuration.s: utils/ini_configuration.cc.s
 
 # target to generate assembly for a file
 utils/ini_configuration.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/utils/ini_configuration.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/utils/ini_configuration.cc.s
 .PHONY : utils/ini_configuration.cc.s
 
 vector/vector3d.o: vector/vector3d.cc.o
@@ -326,7 +350,7 @@ vector/vector3d.o: vector/vector3d.cc.o
 
 # target to build an object file
 vector/vector3d.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/vector/vector3d.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/vector/vector3d.cc.o
 .PHONY : vector/vector3d.cc.o
 
 vector/vector3d.i: vector/vector3d.cc.i
@@ -334,7 +358,7 @@ vector/vector3d.i: vector/vector3d.cc.i
 
 # target to preprocess a source file
 vector/vector3d.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/vector/vector3d.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/vector/vector3d.cc.i
 .PHONY : vector/vector3d.cc.i
 
 vector/vector3d.s: vector/vector3d.cc.s
@@ -342,7 +366,7 @@ vector/vector3d.s: vector/vector3d.cc.s
 
 # target to generate assembly for a file
 vector/vector3d.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Opdracht1.dir/build.make CMakeFiles/Opdracht1.dir/vector/vector3d.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/vector/vector3d.cc.s
 .PHONY : vector/vector3d.cc.s
 
 # Help Target
@@ -353,7 +377,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Opdracht1"
+	@echo "... engine"
 	@echo "... Color.o"
 	@echo "... Color.i"
 	@echo "... Color.s"
@@ -363,6 +387,9 @@ help:
 	@echo "... Point2D.o"
 	@echo "... Point2D.i"
 	@echo "... Point2D.s"
+	@echo "... PointLight.o"
+	@echo "... PointLight.i"
+	@echo "... PointLight.s"
 	@echo "... ZBuffer.o"
 	@echo "... ZBuffer.i"
 	@echo "... ZBuffer.s"

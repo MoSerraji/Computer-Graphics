@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/mohammed/CLionProjects/Opdracht1/Color.cpp" "CMakeFiles/Opdracht1.dir/Color.cpp.o" "gcc" "CMakeFiles/Opdracht1.dir/Color.cpp.o.d"
   "/home/mohammed/CLionProjects/Opdracht1/Line2D.cpp" "CMakeFiles/Opdracht1.dir/Line2D.cpp.o" "gcc" "CMakeFiles/Opdracht1.dir/Line2D.cpp.o.d"
   "/home/mohammed/CLionProjects/Opdracht1/Point2D.cpp" "CMakeFiles/Opdracht1.dir/Point2D.cpp.o" "gcc" "CMakeFiles/Opdracht1.dir/Point2D.cpp.o.d"
+  "/home/mohammed/CLionProjects/Opdracht1/PointLight.cpp" "CMakeFiles/Opdracht1.dir/PointLight.cpp.o" "gcc" "CMakeFiles/Opdracht1.dir/PointLight.cpp.o.d"
   "/home/mohammed/CLionProjects/Opdracht1/ZBuffer.cpp" "CMakeFiles/Opdracht1.dir/ZBuffer.cpp.o" "gcc" "CMakeFiles/Opdracht1.dir/ZBuffer.cpp.o.d"
   "/home/mohammed/CLionProjects/Opdracht1/engine.cc" "CMakeFiles/Opdracht1.dir/engine.cc.o" "gcc" "CMakeFiles/Opdracht1.dir/engine.cc.o.d"
   "/home/mohammed/CLionProjects/Opdracht1/l_parser.cc" "CMakeFiles/Opdracht1.dir/l_parser.cc.o" "gcc" "CMakeFiles/Opdracht1.dir/l_parser.cc.o.d"
